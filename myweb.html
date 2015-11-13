@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My Web</title>
+	<style type="text/css">
+
+    @font-face {
+    font-family: 'transformersregular';
+    src: url('src/Transformers Movie-webfont.eot');
+    src: url('src/Transformers Movie-webfont.eot?#iefix') format('embedded-opentype'),
+         url('src/Transformers Movie-webfont.woff2') format('woff2'),
+         url('src/Transformers Movie-webfont.woff') format('woff'),
+         url('src/Transformers Movie-webfont.ttf') format('truetype'),
+         url('src/Transformers Movie-webfont.svg#transformersregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+   
+    #body{
+    	height:100%;
+    	width:100%;
+        margin: 0px;
+    	background-image: url(src/bg.jpg);
+    	background-repeat: no-repeat;
+    	background-size: cover;//使之填满整个屏幕
+        position: relative;
+    }
+    #button{
+        height: 100%;
+        position: absolute;
+        top:0;
+        left:0%;
+    }
+    #information_chapter{
+        height: 100%;
+        position: absolute;
+        top:0;
+        left:50%;
+    }
+    img{
+        height: 100px;
+        width: 100px;
+        border-style: solid;
+        border-color: yellow;
+        border-radius: 50px;
+        position: absolute;
+        top:5%;
+        left:21.5%;
+    }
+    h1{
+        height: 100px;
+        width: 100px;
+        color: yellow;
+        position: absolute;
+        top:25%;
+        left:22%;
+        font-family: "transformersregular";
+    }
+	</style>
+</head>
+<body id="body">
+	<canvas id="button">对不起，您的浏览器不支持cnavas请更换浏览器再试！</canvas>
+    <canvas id="information_chapter">对不起，您的浏览器不支持cnavas请更换浏览器再试！</canvas>
+    <img src="src/head.jpg">
+    <h1 >Happy</h1>
+	<script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/commonFunctions.js"></script>
+</body>
+</html>
